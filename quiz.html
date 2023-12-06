@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="quiz-container">
+        <h1 id="quizText"></h1>
+        <input type="text" id="answer" placeholder="Your Answer">
+        <button onclick="checkAnswer()">Submit Answer</button>
+        <button onclick="clearInterval(intervalId)">Stop</button>
+        <p id="result"></p>
+        <p id="explanation"></p>
+    </div>
+    <script src="quiz.js"></script>
+</body>
+</html>
