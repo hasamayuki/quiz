@@ -8,10 +8,19 @@ body {
 }
 
 #quiz-container {
+    width: 1000px;
     text-align: center;
 }
 
+#quizText {
+    height: 6em;
+    text-align: start;
+}
+
 #answer {
+    max-width: 80%;
+    margin: 0 auto;
+    text-align: start;
     margin-top: 10px;
     font-size:16px;
 }
