@@ -537,7 +537,7 @@ const questions = [
     },
     {
         question: "1999年に国内初の人工孵化に成功した、翼や尾羽の裏側の淡い橙赤色が特徴的な、学名を「Nipponia nippon」という大型の水鳥は？",
-        answer: "",
+        answer: "トキ",
         explanation: ``
     },
     {
