@@ -661,6 +661,7 @@ const questions = [
 ];
 
 const quizContainer = document.getElementById('quizText');
+const quizAnswer = document.getElementById('quizAnswer');
 
 let currentQuestionIndex = 0;
 let currentIndex = 0;
@@ -700,7 +701,10 @@ function checkAnswer() {
         document.getElementById("result").textContent = "残念！";
     }
 
+    //クイズの解説、全文、答えを表示
     document.getElementById("explanation").textContent = currentQuestion.explanation;
+    quizContainer.textContent = currentQuestion.question;
+    quizAnswer.textContent = currentQuestion.answer;
 
     // 「Next」ボタンに変更
     const submitButton = document.querySelector("button");
@@ -719,7 +723,11 @@ function nextQuestion() {
     if (currentQuestionIndex < questions.length - 1) {
         currentQuestionIndex++;
         currentIndex = 0;
+        
+        //表示されたクイズの文章と答えを消す。
         quizContainer.textContent = "";
+        quizAnswer.textContent = "";
+        
         intervalId = setInterval(displayNextCharacter, 125);
         displayNextCharacter();
     } else {
