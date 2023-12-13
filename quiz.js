@@ -2,7 +2,7 @@ const questions = [
     {
         question: "オナガ、カケス、カササギと言えばいずれも何科の鳥？",
         answer: "カラス",
-        explanation: ""
+        explanation: ``
     },
     {
         question: "音声素材は小山乃舞世が務めている、2008年のエイプリルフールに架空のVOCALOIDを作る企画から誕生した、代表曲に『右に曲ガール』『吉原ラメント』『おちゃめ機能』があるキャラクターは？",
@@ -14,7 +14,7 @@ const questions = [
     {
         question: "元は奇抜な演出を指す歌舞伎用語である、現代では多く「味」を伴って「はったり」や「ごまかし」の意味で用いられる言葉は？",
         answer: "外連",
-        explanation: ""
+        explanation: ``
     },
     {
         question: "女子英学塾を創設して近代的な女子高等教育に尽力した、2024年7月からは新五千円札の肖像にも採用された人物は？",
@@ -29,17 +29,17 @@ const questions = [
     {
         question: "エマヌエル・ロイツェによるデラウェア川を渡る彼の姿を描いた絵画も有名である、アメリカ初代大統領は誰？",
         answer: "ジョージ・ワシントン",
-        explanation: ""
+        explanation: ``
     },
     {
         question: "英語では「hourgrass」と言う、8の字型の容器を引っ繰り返して中身をちょっとずつ落とす事で時間を計る器具を、一般的に中身に用いられる物から何と言う？",
         answer: "砂時計",
-        explanation: ""
+        explanation: ``
     },
     {
         question: "国境、三月、行進を表すのに共通する英単語の綴りは？",
         answer: "March",
-        explanation: ""
+        explanation: ``
     },
     {
         question: "日光東照宮の薬師堂のものが有名である、平行に向かい合う硬い面の間で反響が繰り返されビリビリといった音が聞こえる現象を、ある架空の生き物を用いて何と言う？",
@@ -476,11 +476,6 @@ const questions = [
         explanation: ``
     },
     {
-        question: "",
-        answer: "",
-        explanation: ``
-    },
-    {
         question: "英語では「プリムローズ」という、ギリシャ神話では青年パラリソスが許婚を失った悲しみからやつれ死にこの花になったとされる、埼玉県と大阪府の県花にも指定されている植物は？",
         answer: "サクラソウ",
         explanation: ``
@@ -562,7 +557,7 @@ const questions = [
     },
     {
         question: "2012年に墨田区押上にて開業した、その高さは現地の旧国名である「武蔵」に掛かっている、高さ634mで「世界一高いタワー」としてギネス記録にも認定されている建造物は？",
-        answer: "",
+        answer: "東京スカイツリー",
         explanation: ``
     },
     {
