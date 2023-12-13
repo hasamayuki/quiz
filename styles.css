@@ -17,10 +17,14 @@ body {
     text-align: start;
 }
 
+#quizAnswer {
+    color: #FF6347;
+}
+
 #answer {
     max-width: 80%;
     margin: 0 auto;
-    text-align: start;
+    text-align: start; /* 必要に応じて調整 */
     margin-top: 10px;
     font-size:16px;
 }
