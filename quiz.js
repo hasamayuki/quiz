@@ -1,15 +1,5 @@
 const questions = [
     {
-        question: "",
-        answer: "",
-        explanation: ``
-    },
-    {
-        question: "",
-        answer: "",
-        explanation: ``
-    },
-    {
         question: "タツノオトシゴやカンガルーに見られる、まだ未熟な個体を入れて育てるための袋状の器官を何と言う？",
         answer: "育児嚢",
         explanation: ``
