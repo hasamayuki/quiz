@@ -1,5 +1,35 @@
 const questions = [
     {
+        question: "",
+        answer: "",
+        explanation: ``
+    },
+    {
+        question: "",
+        answer: "",
+        explanation: ``
+    },
+    {
+        question: "タツノオトシゴやカンガルーに見られる、まだ未熟な個体を入れて育てるための袋状の器官を何と言う？",
+        answer: "育児嚢",
+        explanation: ``
+    },
+    {
+        question: "天然痘の流行時には「瘡(くさ)を食う」として縁起物にもなった、首の部分が動くように設計された、牛を象った会津若松市の郷土玩具と言えば？",
+        answer: "赤べこ",
+        explanation: ``
+    },
+    {
+        question: "「衣服を着たまま全身ずぶ濡れになる」ことを、ある動物を用いて何と言う？",
+        answer: "濡れ鼠",
+        explanation: ``
+    },
+    {
+        question: "繰り返すと「どちらも同じくらいであり、優劣が着けがたいさま」を表す言葉になる、言動を遮ったり、力を入れる時に用いられる感動詞は何？",
+        answer: "どっこい",
+        explanation: ``
+    },
+    {
         question: "オナガ、カケス、カササギと言えばいずれも何科の鳥？",
         answer: "カラス",
         explanation: ``
